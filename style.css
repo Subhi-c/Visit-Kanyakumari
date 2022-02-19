@@ -1,0 +1,155 @@
+html,
+body {
+  background-color: antiquewhite;
+}
+
+.container {
+  width: 0px;
+  position: relative;
+  text-align: center;
+}
+.text {
+  position: absolute;
+  font-size: 5rem;
+  color: white;
+  top: 120px;
+  left: 10px;
+}
+#img {
+  background: url("https://images.unsplash.com/photo-1610902552120-c577dbde88a8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1631&q=80");
+  height: 20%;
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  width: 1070px;
+  height: 700px;
+}
+#whoarewe {
+  background: url("https://images.unsplash.com/photo-1589383019924-37cb9ec3008a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+  height: 20%;
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+.p {
+  z-index: 2;
+  padding-left: 40px;
+  padding-top: px;
+  font-size: 2rem;
+  font-weight: 200px;
+}
+
+.people1 p {
+  position: absolute;
+  font-size: 5rem;
+  top: 1000px;
+  left: 600px;
+  color: rgb(255, 255, 255);
+  line-height: 3.9rem;
+  font-weight: 5px;
+  font-style: italic;
+  padding: 0px 20px;
+  font-size: 4rem;
+}
+.people1 {
+  width: 330px;
+  height: 350px;
+}
+button a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+button {
+  border: 3px solid rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 20px;
+  margin-left: 300px;
+  height: 50px;
+}
+.c1 p {
+  line-height: 1.3rem;
+  margin-left: 20px;
+  margin-right: 30px;
+}
+
+.c1 img {
+  margin-left: 60px;
+  width: 200px;
+  height: 240px;
+}
+
+#Celebrities {
+  padding: 20px 10px;
+  display: flex;
+  align-content: space-between;
+}
+#footer {
+  background: url("https://images.unsplash.com/photo-1587708592368-da573d4ac6e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  height: 300px;
+}
+#button {
+  margin: 0px 50px;
+}
+
+#last {
+  padding-left: 50px;
+  padding-top: 40px;
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+@media (max-width: 900px) {
+  #img {
+    width: 390px;
+  }
+  #whoarewe {
+    width: 390px;
+  }
+  .p {
+    font-size: 1.9;
+    margin-top: 40px;
+  }
+  .text {
+    top: 170px;
+    font-size: 3rem;
+  }
+  .people1 {
+    width: 250px;
+    margin-left: 0px;
+    margin-bottom: 40px;
+  }
+  .people1 p {
+    left: 0;
+    margin-top: 20px;
+    font-size: 3rem;
+    line-height: 2.5rem;
+  }
+  button {
+    margin-left: 0;
+    margin-top: 40px;
+  }
+  .c1 img {
+    margin-left: 90px;
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+  }
+
+  .c1 p {
+    font-size: 1.2rem;
+  }
+  #Celebrities {
+    width: 390px;
+    margin: 0px 0px;
+    flex-direction: column;
+  }
+}
