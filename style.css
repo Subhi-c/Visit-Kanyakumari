@@ -188,9 +188,15 @@ button {
     }
     #whoarewe{
       width: 1070px;
-      height: 800px;
+      height: 600px;
     }
     #footer{
       width: 1070px;
     }
   }
+
+@media (width: 2560px){
+  #img{
+    width: 1450px;
+  }
+}
